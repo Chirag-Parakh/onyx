@@ -1,0 +1,11 @@
+.Entravaganza_Main{
+    height: 100vh;
+    width: 100vw;
+}
+#particles canvas{
+    z-index: -10;
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    
+}

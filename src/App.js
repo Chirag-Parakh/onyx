@@ -9,6 +9,7 @@ import Team from './Components/pages/Team';
 import Mem from './Components/pages/Mem';
 import Footer from './Components/Footer';
 import Event from './Components/pages/Event';
+import Entravaganza from './Components/pages/Entravaganza';
 
 
 function App() {
@@ -18,14 +19,11 @@ function App() {
         <Navbar/>
         <Routes>
         <Route path='/' exact element={ <Home />}></Route>
-
-        <Route path='/about' Component={About}></Route>
-
+        <Route path='/about' Component={About}></Route>\
         <Route path='/team' Component={Team}></Route>
-
         <Route path='/mem' Component={Mem}></Route>
-
         <Route path='/event' Component={Event}></Route>
+        <Route path='/Entravaganza' Component={Entravaganza}></Route>
         </Routes>
         <Footer/>
       </Router>

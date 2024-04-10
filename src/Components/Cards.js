@@ -2,27 +2,30 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+
 function Cards() {
+  
   return (
     <div className='cards'>
-      <h1>Check out our Events!</h1>
+      <h1 className='Check_heading'>Check out our Events!</h1>
       <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/Onyx3.jpeg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Entravaganza'
-              path='/event'
-            />
-            <CardItem
-              src='images/Onyx2.jpeg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Inception'
-              path='/event'
-            />
-          </ul>
-          <ul className='cards__items'>
+        {/* <ul className='cards__items'> */}
+
+        <CardItem
+          src='images/Onyx3.jpeg'
+          text='Explore the hidden waterfall deep inside the Amazon Jungle'
+          label='Entravaganza'
+          path='/Entravaganza'
+        />
+
+        <CardItem
+          src='images/Onyx2.jpeg'
+          text='Travel through the Islands of Bali in a Private Cruise'
+          label='Inception'
+          path='/event'
+        />
+        {/* </ul> */}
+        {/* <ul className='cards__items'>
             <CardItem
               src='images/img.jpg'
               text='Captivate was a 
@@ -51,9 +54,9 @@ make it out first.
               label='Workshops'
               path='/event'
             />
-          </ul>
-        </div>
+          </ul> */}
       </div>
+      {/* </div> */}
     </div>
   );
 }
