@@ -10,6 +10,7 @@ import Mem from './Components/pages/Mem';
 import Footer from './Components/Footer';
 import Event from './Components/pages/Event';
 import Entravaganza from './Components/pages/Entravaganza';
+import ParticleBg from './Components/ParticleBg'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Router>
         <Navbar/>
+        <ParticleBg id="particles" className="particles" />
         <Routes>
         <Route path='/' exact element={ <Home />}></Route>
         <Route path='/about' Component={About}></Route>\

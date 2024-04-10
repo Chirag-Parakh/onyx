@@ -32,9 +32,9 @@ function Entravaganza() {
     const images = []
     return (
         <div className='Entravaganza_Main'>
-            <div className='ParticleBg'>
+            {/* <div className='ParticleBg'>
                 <ParticleBg id="particles" className="particles" />
-            </div>
+            </div> */}
             <div className='Entravaganza_Heading'>
                 Entravaganza
             </div>
