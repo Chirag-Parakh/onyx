@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200vh;
+    height:250vh;
     width: 100vw;
     font-family: Forum, sans-serif;
     overflow: hidden;
@@ -46,13 +46,37 @@
     justify-content: center;
     
 }
-
-/* .Entravaganza_Schedule_heading {
+.Sponsors_box{
+    color: white;
+   margin: 2rem;
+}
+.Sponsers_heading{
+    margin-bottom: 2rem;
+    font-family: Forum, sans-serif;
+    font-size: 2rem;
+    color: #30DE81;
+}
+.Sponser_logo{
+    width: 150px;
+    background-color: white;
+    padding: 1rem;
+}
+.Sponsers_logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Entravaganza_Schedule_heading {
     font-size: x-large;
     display: flex;
     align-items: center;
     flex-direction: column;
-} */
+    font-family: Forum, sans-serif;
+    font-size: 2rem;
+    color: #30DE81;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
 
 .Event_circle {
     border-radius: 50%;

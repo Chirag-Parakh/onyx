@@ -6,6 +6,7 @@ import akansha from '../images/akansha.jpeg';
 import ribhav from '../images/ribhav.jpeg';
 import kshitij from '../images/kshitij.jpeg';
 import Ananya from '../images/ananya.jpeg';
+import tejasvi from '../images/tejasvi.jpg';
 
 
 // import contacts from '../../contacts';
@@ -68,7 +69,7 @@ function Team() {
           <div class="inner-shadow"></div>
         </div>
         <div className='Person_card'>
-          <img src={Ananya} alt="" className='Person_pic' />
+          <img src={tejasvi} alt="" className='Person_pic' />
           <div className='Person_details'>
             <div className='Person_name'>Tejasvi</div>
             <div className='Person_position'>Creativity and Design Lead</div>

@@ -6,7 +6,6 @@
 }
 
 .home,
-.about,
 .mem{
   display: flex;
   height: 90vh;
@@ -15,28 +14,52 @@
   font-size: 3rem;
 }
 
-
-.about {
-  background-image: url('../public/images/Onyx1.jpeg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
+.about{
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.about1{
-color: #fff;
-  font-size: 50px;
-}
-
-.about2{
-  color: #fff;
-  font-size: 25px;
+.who_onyx{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  align-items: center;
+  justify-content: start;
+  padding-top: 5rem;
 }
 
 .team {
   color: #fff;
   font-size: 2rem;
+}
+.Who_Heading{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Forum, sans-serif;
+  padding: 2rem;
+}
+.who_description{
+  color: white;
+  font-size: 2rem;
+  font-family: Forum, sans-serif;
+  text-align: center;
+}
+.achivements{
+  width: 50%;
+  height: 100%;
+}
+.verticle_line{
+  display: inline-block;
+  background-color: #30DE81;
+  width: 1px;
+  height: 100%;
 }
 
 .Team_Box{
@@ -112,3 +135,14 @@ color: #fff;
   color: #fff;
   font-size: 100px;
 } */
+@media only screen and (max-width: 640px) {
+  .about{
+    flex-direction: column;
+  }
+  .verticle_line{
+    display: none;
+  }
+  .who_onyx{
+    width: 100%;
+  }
+}
