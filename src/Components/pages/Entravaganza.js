@@ -67,7 +67,9 @@ function Entravaganza() {
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE South Campus
                             </span>
-                            <span className='SubEvent_Time'>11:30 AM</span>
+                            <span className='SubEvent_Time'><span className='SubEvent_venue_icon'>
+                                    <MdOutlineAccessTime />
+                                </span>11:30 AM</span>
                         </div >
                     </div>
                     <div className='Event_flowline'>

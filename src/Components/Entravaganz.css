@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
 .Entravaganza_Main {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 200vh;
     width: 100vw;
+    font-family: Forum, sans-serif;
+    
 }
 
 #particles canvas {
@@ -19,6 +23,7 @@
     color: white;
     padding: 2rem;
     font-size: xx-large;
+    font-family: Forum, sans-serif;
 }
 
 .Entravaganza_Schedule_Box {
@@ -28,21 +33,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
-.Entravaganza_Schedule_heading {
+/* .Entravaganza_Schedule_heading {
     font-size: x-large;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 .Event_circle {
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(95, 181, 95);
     display: inline-block;
     height: 13px;
     width: 13px;
+    
 }
 .Event_line{
     width: 3px;
@@ -78,23 +85,28 @@
     padding-bottom: 1rem;
     font-size: x-large;
     width: 100%;
-    
+    font-family: Forum, sans-serif;
 }
 .SubEvent_heading{
-    font-size: large;
+    font-size: larger;
+    color: rgb(95, 181, 95);
     margin: .2rem;
+    font-family: Forum, sans-serif;
+    text-align: center;
 }
 .SubEvent_venue{
     font-size: smaller;
     margin: .1rem;
     display: flex;
     align-items: center;
+    font-family: Forum, sans-serif;
 }
 .SubEvent_Time{
     font-size: smaller;
     display: flex;
     align-items: center;
     margin: .1rem;
+    font-family: Forum, sans-serif;
 }
 .SubEvent_venue_icon{
     font-size: large;

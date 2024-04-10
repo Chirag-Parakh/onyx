@@ -2,8 +2,10 @@ import React from 'react';
 import '../App.css';
 import './CBAsection.css';
 import {Button} from './Button'
+import { useNavigate } from 'react-router-dom';
 
 function CBAsection() {
+  const navigate = useNavigate();
   return (
     <div
     className='hero-container'>
