@@ -13,6 +13,9 @@ function Entravaganza() {
             <div className='Entravaganza_Heading'>
                 Entravaganza
             </div>
+            <div className='Entravaganza_Description'>
+            Entravaganza by Onyx, our college's entrepreneurship club, is a dynamic 7-day event showcasing innovation and creativity. From E'fest's inauguration to insightful talks, idea generation workshops, and intercollegiate challenges, culminating in a grand panel discussion and an enriching E-Tour, it's a celebration of entrepreneurial spirit and collaborative learning.
+            </div>
             {/* Entravaganza_Schedule_box */}
             <div className='Entravaganza_Schedule_Box'>
                 {/* <div className='Entravaganza_Schedule_heading'>Events Schedule</div> */}
@@ -36,7 +39,7 @@ function Entravaganza() {
                                 </span>11:30 AM</span>
                         </div >
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>Flash Mob</span>
+                            <span className='SubEvent_heading'>FLASH MOB</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE North Campus
@@ -46,7 +49,7 @@ function Entravaganza() {
                                 </span>01:00 PM</span>
                         </div>
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>B-Plan</span>
+                            <span className='SubEvent_heading'>B-PLAN</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE North Campuc
@@ -88,7 +91,7 @@ function Entravaganza() {
                     <div className='Event_box_right '>
                         <h3 className='Event_Date'>April 19, 2024</h3>
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>B-GYAN + PANEL DISCUSSION</span>
+                            <span className='SubEvent_heading'>INTERCOLLEGIENT EVENT</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE South Campus
@@ -130,7 +133,7 @@ function Entravaganza() {
                     <div className='Event_box_right '>
                         <h3 className='Event_Date'>April 22 , 2024</h3>
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>B-GYAN + PANEL DISCUSSION</span>
+                            <span className='SubEvent_heading'>B-GYAAN + PANEL DISCUSSION</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE South Campus

@@ -21,9 +21,19 @@
     width: 100%;
     text-align: center;
     color: white;
-    padding: 2rem;
+    padding: 1rem 2rem;
     font-size: xx-large;
     font-family: Forum, sans-serif;
+    color: #30DE81;
+}
+.Entravaganza_Description{
+    width: 60%;
+    color: white;
+    font-family: Forum, sans-serif;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: large;
 }
 
 .Entravaganza_Schedule_Box {
@@ -45,7 +55,7 @@
 
 .Event_circle {
     border-radius: 50%;
-    background-color: rgb(95, 181, 95);
+    background-color: #30DE81;
     display: inline-block;
     height: 13px;
     width: 13px;
@@ -59,7 +69,7 @@
 }
 
 .Event_flowline {
-    width: 5%;
+    width: 2%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -90,7 +100,8 @@
 }
 .SubEvent_heading{
     font-size: larger;
-    color: rgb(95, 181, 95);
+    color: #30DE81;
+    /* color: rgb(95, 181, 95); */
     margin: .4rem .2rem;
     font-family: Forum, sans-serif;
     text-align: center;
@@ -116,14 +127,14 @@
     padding-right: 10px;
 }
 .Empty_box{
-    width: 45%;
+    width: 30%;
 }
 .Event_box_right{
-    width: 45%;
+    width: 30%;
     padding-left: 0.5rem;
 }
 .Event_box_left{
-    width: 45%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -133,5 +144,18 @@
 @media only screen and (max-width: 640px) {
     .Entravaganza_Schedule_Box{
         width: 98%;
+    }
+    .Entravaganza_Description{
+        padding: .4rem;
+        width: 100%;
+    }
+    .Empty_box{
+        width: 45%;
+    }
+    .Event_box_right{
+        width: 45%;
+    }
+    .Event_box_left{
+        width: 45%;
     }
   }
