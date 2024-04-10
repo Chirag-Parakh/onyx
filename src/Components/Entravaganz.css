@@ -1,4 +1,7 @@
 .Entravaganza_Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
     width: 100vw;
 }
@@ -7,5 +10,23 @@
     position: absolute;
     height: 100%;
     width: 100vw;
+}
+.Entravaganza_Heading{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding:2rem;
+    font-size: xx-large;
+}
+.Entravaganza_Schedule_Box{
+    color:white;
+    width: 80%;
+}
+.Entravaganza_Schedule_heading{
+font-size: x-large;
+}
+.Event_circle{
+    width: 13px;
+    border-radius: 50%;
     
 }

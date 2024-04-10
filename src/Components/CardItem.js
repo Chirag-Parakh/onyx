@@ -11,7 +11,7 @@ function CardItem(props) {
     <>
       <div className='cards__item' onClick={handleClick}  >
         <div className='cards__item__pic-wrap' >
-          <img className='cards__item__img' alt='Travel Image' src={props.src} />
+          <img className='cards__item__img' alt='Travel' src={props.src} />
         </div>
         <div className='cards__item__info'>
           <h5 className='cards__item__label'> {props.label} </h5>

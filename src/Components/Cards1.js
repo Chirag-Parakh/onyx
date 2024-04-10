@@ -2,7 +2,7 @@ import React from "react";
 import CardItem1 from "./CardItem1";
 import './Cards1.css'
 import contacts from "../contacts";
-import styled from "styled-components"; 
+// import styled from "styled-components"; 
 
 function createCard(contact) {
   return (
@@ -22,10 +22,10 @@ const customStyle={
    
 }
 
-const StyledText = styled.h1` 
-    font-family: "Monsterrat", sans-serif; 
-    font-size: 30px; 
-`; 
+// const StyledText = styled.h1` 
+//     font-family: "Monsterrat", sans-serif; 
+//     font-size: 30px; 
+// `; 
 
 function Cards1() {
   return (
