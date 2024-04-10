@@ -28,7 +28,7 @@ h1 {
   width: 350px;
   height: 350px;
   margin: 0 1rem;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .cards__item__pic-wrap {
   position: relative;
@@ -38,7 +38,6 @@ h1 {
   top: 0;
   height: 350px;
   width: 350px;
-  border-radius: 30px;
 }
 
 .fade-img {
@@ -46,11 +45,11 @@ h1 {
   animation-duration: 2s;
 }
 .cards__item__img {
-  position: absolute;
   display: block;
   width: 350px;
   height: 350px;
   transition: all 0.2s linear;
+  object-fit: cover;
 }
 .cards__item__info{
   display: flex;
@@ -89,13 +88,19 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .cards__container{
-    /* flex-direction: column; */
+    flex-direction: row;
     width: 100vw;
     overflow-x: auto;
   }
   .cards__item{
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+@media only screen and (min-width: 628px) {
+  .cards__item{
+    overflow: hidden;
   }
 }
 

@@ -19,7 +19,7 @@ function Cards() {
           src='images/Onyx2.jpeg'
           text='Travel through the Islands of Bali in a Private Cruise'
           label='Inception'
-          path='/event'
+          // path='/event'
         />
       </div>
     </div>

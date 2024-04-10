@@ -7,7 +7,6 @@
 
 .home,
 .about,
-.team,
 .mem{
   display: flex;
   height: 90vh;
@@ -36,12 +35,64 @@ color: #fff;
 }
 
 .team {
-  background-image: url('../public/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 2rem;
+}
+
+.Team_Box{
+  width: 100vh;
+  /* height: 100vw; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-around;
+  width: 100%;
+}
+.Person_card{
+  margin:2rem;
+  position: relative;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+.Person_pic{
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Person_details{
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  color: white;
+  
+}
+.Person_name{
+  font-family: Forum, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.inner-shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Adjust the height of the shadow as needed */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+.Person_position{
+  font-family: Forum, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: .6rem;
 }
 
 .mem {
