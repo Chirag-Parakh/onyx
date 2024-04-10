@@ -86,11 +86,12 @@
     font-size: x-large;
     width: 100%;
     font-family: Forum, sans-serif;
+    margin-top: -.5rem;
 }
 .SubEvent_heading{
     font-size: larger;
     color: rgb(95, 181, 95);
-    margin: .2rem;
+    margin: .4rem .2rem;
     font-family: Forum, sans-serif;
     text-align: center;
 }
@@ -119,12 +120,14 @@
 }
 .Event_box_right{
     width: 45%;
+    padding-left: 0.5rem;
 }
 .Event_box_left{
     width: 45%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-left: 1rem;
 }
 
 @media only screen and (max-width: 640px) {
