@@ -5,6 +5,9 @@ video{
     position: fixed;
     z-index: -1;
 }
+.green{
+    color:#30DE81;
+}
 
 .hero-container{
     /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
@@ -16,7 +19,6 @@ video{
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
-
 }
 
 .hero-container > h1{
@@ -29,6 +31,7 @@ video{
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -58,14 +61,13 @@ video{
         margin-top: -100px;
     }
     .hero-container > p{
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
     .btn-mobile{
         display: block;
         text-decoration: none;
     }
-    
     .btn{
         width: 100%;
     }
