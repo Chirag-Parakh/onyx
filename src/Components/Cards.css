@@ -4,6 +4,7 @@
 }
 .Check_heading{
   padding: 2rem;
+  color: white;
 }
 .Entravaganza{
   width: fit-content;
@@ -22,19 +23,22 @@ h1 {
 
 .cards__item {
   cursor: pointer;
-  overflow: hidden;
   border-radius: 1rem;
   position: relative;
-  width: 50%;
+  width: 350px;
+  height: 350px;
   margin: 0 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .cards__item__pic-wrap {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
-  width: 100%;
   height: 350px;
-  overflow: hidden;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .fade-img {
@@ -42,10 +46,10 @@ h1 {
   animation-duration: 2s;
 }
 .cards__item__img {
-  overflow: hidden;
+  position: absolute;
   display: block;
-  width: 100%;
-  object-fit: contain;
+  width: 350px;
+  height: 350px;
   transition: all 0.2s linear;
 }
 .cards__item__info{
@@ -56,8 +60,8 @@ h1 {
   position: absolute;
   background-color: rgba(0, 0, 0, .4);
   top: 0;
-  height: 100%;
-  width: 100%;
+  height: 350px;
+  width: 350px;
 }
 
 .cards__item:hover .cards__item__img {
@@ -85,12 +89,13 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .cards__container{
-    flex-direction: column;
+    /* flex-direction: column; */
+    width: 100vw;
+    overflow-x: auto;
+  }
+  .cards__item{
+    width: 350px;
+    height: 350px;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
-  }
-}
