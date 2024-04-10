@@ -1,32 +1,60 @@
-.Entravaganza_Main{
+.Entravaganza_Main {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     width: 100vw;
 }
-#particles canvas{
+
+#particles canvas {
     z-index: -10;
     position: absolute;
     height: 100%;
     width: 100vw;
 }
-.Entravaganza_Heading{
+
+.Entravaganza_Heading {
     width: 100%;
     text-align: center;
     color: white;
-    padding:2rem;
+    padding: 2rem;
     font-size: xx-large;
 }
-.Entravaganza_Schedule_Box{
-    color:white;
-    width: 80%;
+
+.Entravaganza_Schedule_Box {
+    color: white;
+    width: 60%;
 }
-.Entravaganza_Schedule_heading{
-font-size: x-large;
+
+.Entravaganza_Schedule_heading {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.Event_circle{
-    width: 13px;
+
+.Event_circle {
     border-radius: 50%;
-    
+    background-color: white;
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+}
+.Event_line{
+    width: 3px;
+    height: 100%;
+    display: inline-block;
+    background-color: white;
+}
+
+.Event_flowline {
+    width: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Events_box {
+    display: flex;
 }
