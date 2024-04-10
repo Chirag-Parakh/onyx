@@ -16,7 +16,7 @@ function CBAsection() {
             <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Get Started Here
             </Button>
 
-            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>E-Week <i className='far fa-play-circle'/>
+            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={() => {navigate('/Entravaganza')}}>E-Week <i className='far fa-play-circle'/>
             </Button>
         </div>
     </div>

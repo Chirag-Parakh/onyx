@@ -7,6 +7,7 @@
     height: 200vh;
     width: 100vw;
     font-family: Forum, sans-serif;
+    overflow: hidden;
     
 }
 
@@ -140,6 +141,29 @@
     align-items: flex-end;
     padding-left: 1rem;
 }
+.Entravaganza_gallery{
+    color: white;
+    display: flex;
+    overflow-x: auto;
+    width: 90vw;
+}
+.Entravaganza_pic{
+    height: 200px;
+    width: 200px;
+    margin: .3rem;
+    object-fit: cover;
+}
+.Entravaganza_gallery_Heading{
+    color: white;
+    font-family: Forum, sans-serif;
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.Entravaganza_gallery_container{
+    margin-top: 7rem;
+}
 
 @media only screen and (max-width: 640px) {
     .Entravaganza_Schedule_Box{
@@ -157,5 +181,8 @@
     }
     .Event_box_left{
         width: 45%;
+    }
+    .Entravaganza_Main {
+        height: 300vh;
     }
   }
