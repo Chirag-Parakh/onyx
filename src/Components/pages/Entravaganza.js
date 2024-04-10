@@ -21,19 +21,19 @@ function Entravaganza() {
                         <span className='Event_circle'></span>
                         <span className='Event_line'></span>
                     </div>
-                    <div className=''>
+                    <div className='Event_box'>
                         <h3>April 17th, 202</h3>
-                        <div className=''>
-                            <span>INAUGURATION</span>
-                            <span>South Campus</span>
+                        <div className='SubEvent_box'>
+                            <span className='SubEvent_heading'>INAUGURATION</span>
+                            <span className='SubEvent_venue'>South Campus</span>
+                        </div >
+                        <div className='SubEvent_box'>
+                            <span className='SubEvent_heading'>Flash Mob</span>
+                            <span className='SubEvent_venue'>North Campus</span>
                         </div>
-                        <div>
-                            <span>Flash Mob</span>
-                            <span>North Campus</span>
-                        </div>
-                        <div>
-                            <span>B-Plan</span>
-                            <span>North Campuc</span>
+                        <div className='SubEvent_box'>
+                            <span className='SubEvent_heading'>B-Plan</span>
+                            <span className='SubEvent_venue'>North Campuc</span>
                             
                         </div>
                         <div></div>

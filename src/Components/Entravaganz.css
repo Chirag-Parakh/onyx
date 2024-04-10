@@ -58,3 +58,6 @@
 .Events_box {
     display: flex;
 }
+.SubEvent_box{
+    padding: .5rem;
+}
