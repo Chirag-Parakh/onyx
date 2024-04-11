@@ -135,23 +135,36 @@
   margin: .6rem;
 }
 
-.mem {
-  background-image: url('../public/images/img-3.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.mem_box {
+  color: white;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-/* .event {
-  background-image: url('../public/images/img-3.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-} */
+.Mem_benifits{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.mem_heading{
+  font-size: 2rem;
+  font-family: Forum, sans-serif;
+}
+.Bennifits{
+  font-size: 1.5rem;
+  font-family: Forum, sans-serif;
+  margin :.5rem;
+  text-align: center;
+}
+.brackets{
+  font-size: 2rem;
+  padding: 0rem .5rem;
+}
 @media only screen and (max-width: 1020px) {
   .about{
     flex-direction: column;
@@ -182,5 +195,18 @@
     width: 100%;
     height: 40vh;
     padding: 1.5rem;
+  }
+  .mem_heading{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .6rem;
+  }
+  .Bennifits{
+    font-size: 1rem;
+    margin :.5rem 0rem;
+  }
+  .brackets{
+    font-size: 1.5rem;
+    display: none;
   }
 }

@@ -9,7 +9,7 @@ function CBAsection() {
   return (
     <div
     className='hero-container'>
-        {/* <video src={process.env.PUBLIC_URL + '/videos/video-2.mp4'} autoPlay loop muted /> */}
+        <video src={process.env.PUBLIC_URL + '/videos/video-2.mp4'} autoPlay loop muted />
         <h1 className='hero_Onyx_name' >ONYX <span className="green">E</span>-Cell</h1>
         <p className='hero_section_slogan'>Entrepreneurship starts here!</p>
         <div className='hero-btns'>

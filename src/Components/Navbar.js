@@ -3,10 +3,12 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from "./images/onyx.png"
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const navigate = useNavigate();
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -55,17 +57,11 @@ function Navbar() {
               </Link>
             </li> */}
 
-            <li>
-              <Link
-                to='/mem'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Membership
-              </Link>
+            <li onClick={() => { navigate('/mem') }}>
+              <Link to='/mem' className='nav-links-mobile'> Membership </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>MEMBERSHIP</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={() => { navigate('/mem') }}>MEMBERSHIP</Button>}
         </div>
       </nav>
     </>
