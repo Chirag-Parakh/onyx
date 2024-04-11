@@ -30,7 +30,7 @@
   flex-direction: column;
   padding: 3rem;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   padding-top: 5rem;
 }
 
@@ -51,15 +51,32 @@
   font-family: Forum, sans-serif;
   text-align: center;
 }
-.achivements{
+.Achivements_box{
   width: 50%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Achivements_heading{
+  font-size: 3rem;
+  font-family: Forum, sans-serif;
+}
+.Achivement{
+  color: white;
+  font-family: Forum, sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
 }
 .verticle_line{
   display: inline-block;
   background-color: #30DE81;
   width: 1px;
   height: 100%;
+}
+.trophy{
+  margin: 0rem 1rem;
 }
 
 .Team_Box{
@@ -135,14 +152,35 @@
   color: #fff;
   font-size: 100px;
 } */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1020px) {
   .about{
     flex-direction: column;
+    height: 100vh;
+  }
+  .Achivements_box{
+    width: 100%;
+    height: 40vh;
+  }
+  .Achivements_heading{
+    font-size: 2.5rem;
+  }
+  .Who_Heading{
+    font-size: 2rem;
+    padding: .5rem;
+  }
+  .who_description{
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .Achivement{
+    font-size: 1rem;
   }
   .verticle_line{
     display: none;
   }
   .who_onyx{
     width: 100%;
+    height: 40vh;
+    padding: 1.5rem;
   }
 }
