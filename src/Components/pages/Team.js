@@ -5,8 +5,9 @@ import chinmay from '../images/chinmay.jpg';
 import akansha from '../images/akansha.jpeg';
 import ribhav from '../images/ribhav.jpeg';
 import kshitij from '../images/kshitij.jpeg';
-import Ananya from '../images/ananya.jpeg';
+import Ananya from '../images/ananya.jpg';
 import tejasvi from '../images/tejasvi.jpg';
+import Sriram from '../images/sriram.jpg';
 
 
 // import contacts from '../../contacts';
@@ -53,7 +54,7 @@ function Team() {
           <div class="inner-shadow"></div>
         </div>
         <div className='Person_card'>
-          <img src={ribhav} alt="" className='Person_pic' />
+          <img src={Sriram} alt="" className='Person_pic' />
           <div className='Person_details'>
             <div className='Person_name'>Sriram S Kumar</div>
             <div className='Person_position'>Events Lead</div>
