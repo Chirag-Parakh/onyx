@@ -57,11 +57,11 @@ function Navbar() {
               </Link>
             </li> */}
 
-            <li onClick={() => { navigate('/mem') }}>
+            <li onClick={() => { navigate('/mem')  ; setClick(false);}}>
               <Link to='/mem' className='nav-links-mobile'> Membership </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' onClick={() => { navigate('/mem') }}>MEMBERSHIP</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={() => { navigate('/mem')  ; setClick(false) ;}}>MEMBERSHIP</Button>}
         </div>
       </nav>
     </>
