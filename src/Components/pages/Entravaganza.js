@@ -37,7 +37,10 @@ function Entravaganza() {
             {/* <div className='ParticleBg'>
                 <ParticleBg id="particles" className="particles" />
             </div> */}
-            <div className='Entravaganza_Heading'>
+            <div>
+                
+            </div>
+            <div className='Entravaganza_Heading' data-text="Entravaganza">
                 Entravaganza
             </div>
             <div className='Entravaganza_Description'>
