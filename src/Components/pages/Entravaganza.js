@@ -28,6 +28,7 @@ import pic23 from '../images/23.jpeg';
 import pic24 from '../images/24.jpeg';
 import pic25 from '../images/25.jpeg';
 import exinous from '../images/Exinous.webp'
+import nie from '../images/nie.svg.png'
 
 function Entravaganza() {
     const images = []
@@ -45,7 +46,13 @@ function Entravaganza() {
             <div className='Sponsors_box'>
                 <div className='Sponsers_heading'>Associates</div>
                 <div className='Sponsers_logos'>
-                    <img src={exinous} alt="" className='Sponser_logo'/>
+                    <div className='Sponsers_box'> 
+                        <img src={nie} alt="" className='Sponser_logo' />
+                        <div className='Incubation_heading'>NIE Incubation Center</div>
+                    </div>
+                    <div className='Sponsers_box'>
+                        <img src={exinous} alt="" className='Sponser_logo' />
+                    </div>
                 </div>
             </div>
             {/* Entravaganza_Schedule_box */}

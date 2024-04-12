@@ -55,11 +55,13 @@
     font-family: Forum, sans-serif;
     font-size: 2rem;
     color: #30DE81;
+    text-align: center;
 }
 .Sponser_logo{
-    width: 150px;
+    height: 150px;
     background-color: white;
     padding: 1rem;
+    margin: .5rem;
 }
 .Sponsers_logos{
     display: flex;
@@ -77,7 +79,18 @@
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
-
+.Sponsers_box{
+    margin: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Incubation_heading{
+    font-family: Forum, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
 .Event_circle {
     border-radius: 50%;
     background-color: #30DE81;
@@ -208,5 +221,8 @@
     }
     .Entravaganza_Main {
         height: 300vh;
+    }
+    .Sponsers_logos{
+        flex-direction: column;
     }
   }
