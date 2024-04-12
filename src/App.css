@@ -16,7 +16,7 @@
 
 .about{
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -63,11 +63,30 @@
   font-size: 3rem;
   font-family: Forum, sans-serif;
 }
+.Achivements{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Achivement_logo{
+  font-size: 4rem;
+  color: black;
+}
 .Achivement{
-  color: white;
+  width: 35%;
+  color: black;
+  background-color: #30DE81;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   font-family: Forum, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 1rem 0rem;
+  padding: 1rem;
+  text-align: center;
 }
 .verticle_line{
   display: inline-block;
@@ -184,7 +203,7 @@
 @media only screen and (max-width: 1020px) {
   .about{
     flex-direction: column;
-    height: 100vh;
+    height: 150vh;
   }
   .Achivements_box{
     width: 100%;
@@ -194,22 +213,26 @@
     font-size: 2.5rem;
   }
   .Who_Heading{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: .5rem;
+    margin: 1rem;
   }
   .who_description{
     width: 100%;
     font-size: 1.5rem;
   }
-  .Achivement{
-    font-size: 1rem;
+  .Achivements_box{
+    height: 110vh;
+  }
+  .Achivements{
+    height: 70%;
   }
   .verticle_line{
     display: none;
   }
   .who_onyx{
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     padding: 1.5rem;
   }
   .mem_heading{

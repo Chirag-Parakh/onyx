@@ -48,7 +48,6 @@ function Entravaganza() {
                 <div className='Sponsers_logos'>
                     <div className='Sponsers_box'> 
                         <img src={nie} alt="" className='Sponser_logo' />
-                        <div className='Incubation_heading'>NIE Incubation Center</div>
                     </div>
                     <div className='Sponsers_box'>
                         <img src={exinous} alt="" className='Sponser_logo' />
