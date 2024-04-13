@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer-container'>
-    <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
       <p className='footer-subscription-heading'>
         Join the Entrepreneurship newsletter to receive our best deals
       </p>
@@ -24,42 +24,43 @@ function Footer() {
           <Button buttonStyle='btn--outline'>Subscribe</Button>
         </form>
       </div>
-    </section>
-    <div class='footer-links'>
-      <div className='footer-link-wrapper'>
-        <div class='footer-link-items'>
-          <h2>About Us</h2>
-          <Link to='/sign-up'>How it works</Link>
-          <Link to='/'>Testimonials</Link>
-          <Link to='/'>Careers</Link>
-          <Link to='/'>Investors</Link>
-          <Link to='/'>Terms of Service</Link>
+    </section> */}
+      <div class='footer-links'>
+        <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>About Us</h2>
+            <Link to='/sign-up'>How it works</Link>
+            <Link to='/'>Testimonials</Link>
+            <Link to='/'>Careers</Link>
+            <Link to='/'>Investors</Link>
+            <Link to='/'>Terms of Service</Link>
+          </div>
+          <div class='footer-link-items'>
+            <h2>Contact Us</h2>
+            <Link to='/team'>Contact</Link>
+            <Link to='/'>Support</Link>
+            <Link to='/'>Sponsorships</Link>
+          </div>
         </div>
-        <div class='footer-link-items'>
-          <h2>Contact Us</h2>
-          <Link to='/team'>Contact</Link>
-          <Link to='/'>Support</Link>
-          <Link to='/'>Sponsorships</Link>
-        </div>
-      </div>
-      <div className='footer-link-wrapper'>
-        {/* <div class='footer-link-items'>
+        <div className='footer-link-wrapper'>
+          {/* <div class='footer-link-items'>
           <h2>Videos</h2>
           <Link to='/'>College</Link>
           <Link to='/team'>Ambassadors</Link>
           <Link to='/'>Agency</Link>
           <Link to='/'>Influencer</Link>
         </div> */}
-        <div class='footer-link-items'>
-          <h2>Social Media</h2>
-          <Link to='/'>Instagram</Link>
-          <Link to='/'>Facebook</Link>
-          <Link to='/'>Youtube</Link>
-          <Link to='/'>Twitter</Link>
+          <div class='footer-link-items'>
+            <h2>Social Media</h2>
+            <a href="https://www.instagram.com/onyx.nie" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/company/onyx-ecell/mycompany/" target="_blank">LinkedIn</a>
+            <a href="https://youtube.com/@onyxecell?si=9-12lddcBqJl0TsO" target="_blank">YouTube</a>
+
+            {/* <Link to='/'>Twitter</Link> */}
+          </div>
         </div>
       </div>
-    </div>
-    <section class='social-media'>
+      <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
@@ -69,46 +70,16 @@ function Footer() {
           </div>
           <small class='website-rights'>ONYX © 2024</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link linkedin'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            <a class='social-icon-link instagram' href='https://www.instagram.com/onyx.nie' target='_blank' aria-label='Instagram'>
+              <i class='fab fa-instagram'></i>
+            </a>
+            <a class='social-icon-link youtube' href='https://youtube.com/@onyxecell?si=9-12lddcBqJl0TsO' target='_blank' aria-label='Youtube'>
+              <i class='fab fa-youtube'></i>
+            </a>
+            <a class='social-icon-link linkedin' href='https://www.linkedin.com/company/onyx-ecell/mycompany/' target='_blank' aria-label='LinkedIn'>
+              <i class='fab fa-linkedin'></i>
+            </a>
+
           </div>
         </div>
       </section>

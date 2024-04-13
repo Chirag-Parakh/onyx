@@ -11,7 +11,7 @@ function Mem() {
     <div className='mem_box'> 
      <div className='mem_heading'>What are the benefits of becoming an <span className='green'>ONYX</span> MEMBER?</div>
      <div className='Mem_benifits'>
-      <div className="Bennifits"> <span className='Benifit_logo'><SiMinds /></span> Development of entrepreneurial mindset through being a part of E-cell.</div>
+      <div className="Bennifits"> <span className='Benifit_logo'><SiMinds /></span> Development of entrepreneurial mindset by being a part of E-cell.</div>
       <div className="Bennifits"><span className='Benifit_logo'><SiFuturelearn /></span>Chance to learn from real-world entrepreneurs.</div>
       <div className="Bennifits"><span className='Benifit_logo'><MdEventSeat /></span>Free access to all our events and discussions.</div>
       <div className="Bennifits"><span className='Benifit_logo'><GiTeamDowngrade /></span>A chance to join the core team.</div>

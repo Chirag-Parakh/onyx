@@ -49,7 +49,7 @@ function Team() {
           <img src={ribhav} alt="" className='Person_pic' />
           <div className='Person_details'>
             <div className='Person_name'>Ribhav V Shetty</div>
-            <div className='Person_position'>Secretery</div>
+            <div className='Person_position'>Secretary</div>
           </div>
           <div class="inner-shadow"></div>
         </div>

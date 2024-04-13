@@ -38,13 +38,13 @@ function Entravaganza() {
                 <ParticleBg id="particles" className="particles" />
             </div> */}
             <div>
-                
+
             </div>
             <div className='Entravaganza_Heading' data-text="Entravaganza">
                 Entravaganza
             </div>
             <div className='Entravaganza_Description'>
-                Entravaganza by Onyx, our college's entrepreneurship club, is a dynamic 7-day event showcasing innovation and creativity. From E'fest's inauguration to insightful talks, idea generation workshops, and intercollegiate challenges, culminating in a grand panel discussion and an enriching E-Tour, it's a celebration of entrepreneurial spirit and collaborative learning.
+                Entravaganza by Onyx, enterpreneurship club of The National Institute of Engineering Mysore, is a dynamic 7-day event showcasing innovation and creativity. From E'fest's inauguration to insightful talks, idea generation workshops, and intercollegiate challenges, culminating in a grand panel discussion and an enriching E-Tour, it's a celebration of entrepreneurial spirit and collaborative learning.
             </div>
             <div className='Sponsors_box'>
                 <div className='Sponsers_heading'>Associates</div>
@@ -88,7 +88,7 @@ function Entravaganza() {
                             <span className='SubEvent_heading'>B-PLAN</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
-                                NIE North Campuc
+                                NIE North Campus
                             </span>
                             <span className='SubEvent_Time'> <span className='SubEvent_venue_icon'>
                                 <MdOutlineAccessTime />
@@ -115,7 +115,7 @@ function Entravaganza() {
                             <span className='SubEvent_heading'>IDEA GENERATION WORKSHOP</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
-                                NIE South Campus
+                                NIE North Campus
                             </span>
                             <span className='SubEvent_Time'><span className='SubEvent_venue_icon'>
                                 <MdOutlineAccessTime />
@@ -130,10 +130,10 @@ function Entravaganza() {
                     <div className='Event_box_left '>
                         <h3 className='Event_Date'>April 19, 2024</h3>
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>INTERCOLLEGIENT EVENT</span>
+                            <span className='SubEvent_heading'>INTERCOLLEGIATE EVENT</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
-                                NIE South Campus
+                                NIE South & North Campus
                             </span>
                             <span className='SubEvent_Time'> <span className='SubEvent_venue_icon'>
                                 <MdOutlineAccessTime />
@@ -156,7 +156,7 @@ function Entravaganza() {
                     <div className='Event_box_right'>
                         <h3 className='Event_Date'>April 20, 2024</h3>
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>TALK WITH BOSCH EXECUTIVE</span>
+                            <span className='SubEvent_heading'>TALK BY BOSCH EXECUTIVE</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE South Campus
@@ -175,7 +175,7 @@ function Entravaganza() {
                     <div className='Event_box_left '>
                         <h3 className='Event_Date'>April 22 , 2024</h3>
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>B-GYAAN + PANEL DISCUSSION</span>
+                            <span className='SubEvent_heading'>B-GYAAN </span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE South Campus
@@ -183,6 +183,16 @@ function Entravaganza() {
                             <span className='SubEvent_Time'><span className='SubEvent_venue_icon'>
                                 <MdOutlineAccessTime />
                             </span>11:30 AM</span>
+                        </div >
+                        <div className='SubEvent_box'>
+                            <span className='SubEvent_heading'>PANEL DISCUSSION</span>
+                            <span className='SubEvent_venue'>
+                                <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
+                                NIE South Campus
+                            </span>
+                            <span className='SubEvent_Time'><span className='SubEvent_venue_icon'>
+                                <MdOutlineAccessTime />
+                            </span>5:30 AM</span>
                         </div >
                     </div>
                     <div className='Event_flowline'>
@@ -203,7 +213,7 @@ function Entravaganza() {
                     <div className='Event_box_right'>
                         <h3 className='Event_Date'>April 23 , 2024</h3>
                         <div className='SubEvent_box'>
-                            <span className='SubEvent_heading'>E-TOUR</span>
+                            <span className='SubEvent_heading'>E-TOUR to BANGALORE</span>
                             <span className='SubEvent_venue'>
                                 <span className='SubEvent_venue_icon' ><FaMapMarkedAlt /></span>
                                 NIE South Campus
